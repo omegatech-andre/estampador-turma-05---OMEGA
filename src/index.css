@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Belleza', sans-serif;
     background-color: #e0e0e0;
     color: #202020;
 }
@@ -32,38 +32,36 @@ header {
         }
             #logo-nome{
                 display: flex;
+                flex-direction: column;
                 align-items: center;
+                margin-bottom: 60px;
             }
-                #logo-nome h1{
-                    margin-left: 15px;
-                    font-size: 40px;
-                    font-weight: 300;
-                    line-height: 100%;
-                }
-
-                #logo-nome strong{
-                    font-size: 40px;
-                    font-weight: 700;
-                }
             
             #info h2{
+                color: #BE100F;
                 margin-top: 20px;
+                font-weight: 300;
+                font-size: 24px;
+            }
+
+            #info strong#stg1{
+                color: #BE100F;
                 font-weight: 600;
-                font-size: 26px;
+                font-size: 24px;
             }
 
             #info h3{
                 margin-top: 10px;
-                margin-bottom: 40px;
+                margin-bottom: 25px;
                 font-weight: 300;
-                font-size: 18px;
+                font-size: 19px;
                 line-height: 125%;
             }
 
             #info span{
-                color: #202020;
-                font-size: 22px;
-                font-weight: 500;
+                color: #BE100F;
+                font-size: 20px;
+                font-weight: 600;
             }
 
             button{
@@ -72,20 +70,21 @@ header {
                 padding: 12px;
                 font-size: 18px;
                 border-radius: 5px;
-                border: 2px solid #ff2800;
-                color: #ff2800;
+                border: 2px solid #BE100F;
+                color: #BE100F;
                 font-weight: bold;
                 cursor: pointer;
                 background-color: #e0e0e0;
+                transition: 500ms;
             }
 
                 button:hover{
-                    background-color: #ff2800;
+                    background-color: #BE100F;
                     color: #e0e0e0;
                 }
 
             #info p{
-                color: #ff2800;
+                color: #BE100F;
                 font-size: 12px;
                 font-style: italic;
                 margin-left: 5px;
@@ -503,7 +502,7 @@ section#btn-cta{
         background-color: transparent;
     }
     button{
-        background-color: #ff2800;
+        background-color: #BE100F;
         color: #e0e0e0;
     }
     section#barra-info-extra{

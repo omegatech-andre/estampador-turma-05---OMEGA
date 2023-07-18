@@ -1,6 +1,1 @@
-# Ladingpage-Estampador-de-Sucesso---OMEGA
-
-Projeto FINALIZADO!
-
-Link:
-https://singular-yeot-8863ca.netlify.app/
+# Ladingpage-Estampador-de-Sucesso-turma-05---OMEGA

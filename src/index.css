@@ -13,8 +13,8 @@
 
 header {
     display: flex;
-    height: 900px;
-    background-image: url(/src/imagens/bg-minimal-compressed.png);
+    height: 960px;
+
 }
 
     aside#header-esquerdo{
@@ -23,7 +23,7 @@ header {
         align-items: center;
         background-color: #e0e0e0;
         width: 50%;
-        height: 900px;
+        height: 960px;
     }
         #info{
             margin: 45px;
@@ -92,10 +92,9 @@ header {
             }
 
     aside#header-direito{
-        display: flex;
-        background-image: url(/src/imagens/bg-minimal-compressed.png);
+        display: none;
         width: 50%;
-        height: 900px;
+        height: 960px;
     }
 
 

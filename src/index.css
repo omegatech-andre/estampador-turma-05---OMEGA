@@ -5,7 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Belleza', sans-serif;
-    background-color: #e0e0e0;
+    background-color: #fff;
     color: #202020;
 }
 
@@ -13,7 +13,8 @@
 
 header {
     display: flex;
-    height: 960px;
+    justify-content: end;
+    height: 900px;
 
 }
 
@@ -21,9 +22,9 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #e0e0e0;
-        width: 50%;
-        height: 960px;
+        width: 100%;
+        background-color: #fff;
+        height: 900px;
     }
         #info{
             margin: 45px;
@@ -74,13 +75,13 @@ header {
                 color: #BE100F;
                 font-weight: bold;
                 cursor: pointer;
-                background-color: #e0e0e0;
+                background-color: #fff;
                 transition: 500ms;
             }
 
                 button:hover{
                     background-color: #BE100F;
-                    color: #e0e0e0;
+                    color: #fff;
                 }
 
             #info p{
@@ -92,9 +93,9 @@ header {
             }
 
     aside#header-direito{
-        display: none;
-        width: 50%;
-        height: 960px;
+        display: flex;
+        height: 900px;
+
     }
 
 
@@ -121,7 +122,7 @@ section#barra-info-extra{
         font-size: 25px;
         font-weight: normal;
         margin: auto;
-        color: #e0e0e0;
+        color: #fff;
         align-items: center;
         text-align: center;
         background-color: transparent;
@@ -142,7 +143,7 @@ section#area-info-professor{
     margin: auto;
     height: 740px;
     width: 90%;
-    background-color: #e0e0e0;
+    background-color: #fff;
 }
 
     #img-professor{

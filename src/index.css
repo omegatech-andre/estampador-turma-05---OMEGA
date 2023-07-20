@@ -110,15 +110,15 @@ header {
 
 section#info-extra{
     display: flex;
-    background-color: #ff2800;
+    background-color: #F90000;
 }
 
 section#barra-info-extra{
+    background-color: #FF0000;
     padding: 20px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    background-color: transparent;
     width: 90%;
     margin: 40px auto;
 }
@@ -137,7 +137,7 @@ section#barra-info-extra{
 
     #barra-info-extra img{
         margin-bottom: 15px;
-        width: 35px;
+        width: 75px;
         margin-top: 35px;
         background-color: transparent;
     }
@@ -181,15 +181,18 @@ section#area-info-professor{
         }
 
         #info-professor h3{
-            border-top: 1px solid #ff2800;
+            border-top: 1px solid #BE100F;
             margin-top: 25px;
             font-weight: 300;
             padding-top: 25px;
-            font-size: 20px;
+            font-size: 19px;
+        }
+        #info-professor button{
+            font-size: 19px;
         }
 
         .strong-red{
-            color: #ff2800;
+            color: #DF0000;
         }
 
 
@@ -200,8 +203,8 @@ section#info-adicionais{
     margin: auto;
     height: auto;
     width: 90%;
-    background-color: #e0e0e0;
-    border-top: 1px solid #ff2800;
+    background-color: #fff;
+    border-top: 1px solid #BE100F;
 }
 
     #quarta-sessao-topo{
@@ -244,11 +247,11 @@ section#turmas-depoimentos-geral{
     width: 100%;
     height: auto;
     margin-top: 50px;
-    background-color: #e0e0e0;
+    background-color: #fff;
 }
 
     #turmas-depoimentos{
-        border-top: 1px solid #ff2800;
+        border-top: 1px solid #BE100F;
         display: flex;
         margin: 0 auto;
         width: 90%;
@@ -318,7 +321,7 @@ section#duvidas-geral{
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: #ff2800;
+    background-color: #BE100F;
 }
     section#duvidas{
         display: flex;
@@ -336,14 +339,14 @@ section#duvidas-geral{
             margin-bottom: 60px;
             margin-top: 65px;
             background-color: transparent;
-            color: #e0e0e0;
+            color: #fff;
         }
 
         .container {
             box-shadow: 8px 10px 5px #0003;
             width: 80%;
             max-width: 900px;
-            background-color: #e0e0e0;
+            background-color: #fff;
             border-radius: 5px;
             padding: 10px;
             margin: auto 5px;
@@ -358,7 +361,7 @@ section#duvidas-geral{
             
             .accordion_item {
                 border-radius: 5px;
-                background-color: #ff2800;
+                background-color: #BE100F;
             }
             
             .accordion_item:hover {
@@ -392,13 +395,13 @@ section#duvidas-geral{
             span, .icon {
                 font-weight: 600;
                 background-color: transparent;
-                color: #e0e0e0;
+                color: #fff;
             }
             
             p {
                 text-align: justify;
                 background-color: transparent;
-                color: #e0e0e0;
+                color: #fff;
             }
 
 
@@ -419,7 +422,7 @@ section#btn-cta{
 }
 
     #btn-cta h2{
-        color: #e0e0e0;
+        color: #fff;
         background-color: #202020;
         font-size: 3vw;
         font-weight: 500;
@@ -429,13 +432,13 @@ section#btn-cta{
     #btn-cta h3{
         margin-top: 100px;
         font-size: 22px;
-        color: #e0e0e0;
+        color: #fff;
         background-color: #202020;
     }
 
     span#cor{
-        background-color: #ff2800;
-        color: #e0e0e0;
+        background-color: #BE100F;
+        color: #fff;
         padding: 10px;
         font-size: 3vw;
         font-weight: 500;
@@ -443,7 +446,7 @@ section#btn-cta{
     }
     #btn-cta strong{
         font-weight: 700;
-        color: #ff2800;
+        color: #BE100F;
         background-color: #202020;
     }
 
@@ -461,7 +464,7 @@ section#btn-cta{
     }
 
     #btn-cta button:hover{
-        background-color: #ff2800;
+        background-color: #BE100F;
     }
 
 
@@ -506,7 +509,7 @@ section#btn-cta{
     }
 
 button{
-    font-size: 2vwpx;
+    font-size: 2vw;
 }
     #logo-nome{
         background-color: transparent;
@@ -531,16 +534,25 @@ button{
     }
     button{
         background-color: #BE100F;
-        color: #e0e0e0;
+        color: #fff;
     }
     section#barra-info-extra{
         width: 70%;
     }
+    section#barra-info-extra h3{
+        font-size: 3vw;
+    }
     #info-professor h1{
         font-size: 5vw;
     }
+    #info-professor h3{
+        font-size: 2vw;
+    }
     #quarta-sessao-topo h2{
         font-size: 5vw;
+    }
+    #quarta-sessao-topo h3{
+        font-size: 2vw;
     }
     #duvidas h2{
         font-size: 5vw;
@@ -552,7 +564,7 @@ button{
         font-size: 5vw;
     }
     #btn button{
-        background-color: #ff2800;
+        background-color: #BE100F;
     }
 }
 
@@ -581,19 +593,16 @@ button{
             font-size: 14px;
         }
 
-    button{
-        font-size: 14px;
-    }
     
-    #barra-info-extra h3{
-        font-size: 20px;
-    }
     #info-professor h3{
-        font-size: 16px;
+        font-size: 2.5vw;
         line-height: 145%;
     }
     #info-btn-maps h3{
-        font-size: 18px;
+        font-size: 2.5vw;
+    }
+    #quarta-sessao-topo-info button{
+        font-size: 2.5vw;
     }
     section#turmas-depoimentos-geral{
         margin-top: 0px;
@@ -671,9 +680,6 @@ button{
             font-size: 14px;
         }
 
-    button{
-        font-size: 14px;
-    }
     #info p{
         font-size: 9px;
     }
@@ -682,31 +688,35 @@ button{
         flex-direction: column;
         margin-top: 0px;    
     }
-    #barra-info-extra h3{
+    section#barra-info-extra h3{
         margin-top: 20px;
-        font-size: 18px;
+        font-size: 4vw;
     }
     section#area-info-professor{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         height: auto;
         align-items: center;
+        margin: 20px;
     }
-    #info-professor{
-        width: 100%;
-        margin: 40px auto;
-    }
-    #info-professor h1{
-        font-size: 7vw;
-        text-align: center;
-    }
-    #info-professor h3{
-        text-align: center;
-        font-size: 12px;
-        line-height: 145%;
-    }
-    #img-professor{
-        margin-bottom: 40px;
+        #info-professor{
+            width: 100%;
+            align-items: center;
+        }
+        #info-professor h1{
+            font-size: 7vw;
+            text-align: center;
+        }
+        #info-professor h3{
+            text-align: center;
+            font-size: 3vw;
+            line-height: 145%;
+        }
+        #info-professor button{
+            font-size: 3vw;
+        }
+        #img-professor{
+            margin-bottom: 40px;
     }
     #quarta-sessao-topo{
         margin: 0px;
@@ -716,7 +726,10 @@ button{
         font-size: 7vw;
     }
     #info-btn-maps h3{
-        font-size: 14px;
+        font-size: 3vw;
+    }
+    #quarta-sessao-topo-info button{
+        font-size: 3vw;
     }
     section#turmas-depoimentos-geral{
         margin-top: 0px;

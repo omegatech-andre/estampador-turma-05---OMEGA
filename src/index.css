@@ -94,7 +94,6 @@ header {
 
         video{
             position: absolute;
-            object-fit: contain;
             right: 0px;
             width: 720px;
             height: 840px;
@@ -479,7 +478,7 @@ section#btn-cta{
         margin: auto;
         height: 85%;
         width: 85%;
-        background-color: rgba(255, 255, 255, 0.281);
+        background-color: rgba(255, 255, 255, 0.247);
         backdrop-filter: blur(10px);
         border-radius: 10px;
     }
@@ -602,6 +601,13 @@ section#btn-cta{
     aside#header-esquerdo{
         margin: auto;
     }
+    aside#header-direito{
+        display: flex;
+    }
+        #header-direito video{
+            height: 700px;
+            object-fit: cover;
+        }
     #info{
         margin: 25px;
         width: 615px;

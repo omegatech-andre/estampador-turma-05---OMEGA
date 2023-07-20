@@ -491,6 +491,23 @@ section#btn-cta{
     #info{
         background-color: transparent;
     }
+    
+    #info strong#stg1{
+        font-size: 3vw;
+    }
+
+    #info h3{
+        margin-bottom: 20px;
+        font-size: 2vw;
+    }
+
+    #info span{
+        font-size: 2vw;
+    }
+
+button{
+    font-size: 2vwpx;
+}
     #logo-nome{
         background-color: transparent;
     }
@@ -547,6 +564,27 @@ section#btn-cta{
 
 
 @media only screen and (max-width: 800px){
+        #logo-nome img{
+            width: 40%;
+        }
+        
+        #info strong#stg1{
+            font-size: 3vw;
+        }
+
+        #info h3{
+            margin-bottom: 20px;
+            font-size: 2vw;
+        }
+
+        #info span{
+            font-size: 14px;
+        }
+
+    button{
+        font-size: 14px;
+    }
+    
     #barra-info-extra h3{
         font-size: 20px;
     }
@@ -613,24 +651,20 @@ section#btn-cta{
         width: 615px;
         height: auto;
     }
+        #logo-nome{
+            margin-bottom: 30px;
+        }
         #logo-nome img{
             width: 30%;
         }
-            #logo-nome h1{
-                font-size: 20px;
-            }
-
-            #logo-nome strong{
-                font-size: 22px;
-            }
         
-        #info h2{
-            font-size: 16px;
+        #info strong#stg1{
+            font-size: 18px;
         }
 
         #info h3{
             margin-bottom: 20px;
-            font-size: 12px;
+            font-size: 14px;
         }
 
         #info span{
@@ -641,7 +675,7 @@ section#btn-cta{
         font-size: 14px;
     }
     #info p{
-        font-size: 8px;
+        font-size: 9px;
     }
     section#barra-info-extra{
         display: flex;

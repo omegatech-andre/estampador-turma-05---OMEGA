@@ -13,7 +13,7 @@
 
 header {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     height: 840px;
 
 }
@@ -21,15 +21,16 @@ header {
     aside#header-esquerdo{
         display: flex;
         justify-content: center;
+        z-index: 1;
         align-items: center;
-        width: 100%;
+        width: 60%;
         background-color: #fff;
         height: 840px;
     }
         #info{
-            margin: 45px;
-            width: 615px;
-            height: 700px;
+            width: 70%;
+            margin: auto;
+            z-index: 10;
         }
             #logo-nome{
                 display: flex;
@@ -91,9 +92,17 @@ header {
                 margin-top: 5px;
             }
 
+        video{
+            position: absolute;
+            object-fit: contain;
+            right: 0px;
+            width: 720px;
+            height: 840px;
+            object-fit: cover;
+        }
+
     aside#header-direito{
         display: flex;
-        height: 840px;
 
     }
 
@@ -470,12 +479,16 @@ section#btn-cta{
         margin: auto;
         height: 85%;
         width: 85%;
-        background-color: #e0e0e0be;
+        background-color: rgba(255, 255, 255, 0.281);
+        backdrop-filter: blur(10px);
         border-radius: 10px;
     }
     aside#header-direito{
-        display: none;
+        display: flex;
     }
+        #header-direito video{
+            width: 960px;
+        }
     #info{
         background-color: transparent;
     }

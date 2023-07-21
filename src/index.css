@@ -69,7 +69,7 @@ header {
                 text-decoration: none;
                 width: 100%;
                 padding: 12px;
-                font-size: 18px;
+                font-size: 19px;
                 border-radius: 5px;
                 border: 2px solid #BE100F;
                 color: #BE100F;
@@ -172,7 +172,6 @@ section#area-info-professor{
         justify-content: center;
         padding: 0px 10px;
         width: 50%;
-        max-width: 600px;
     }
 
         #info-professor h1{
@@ -200,6 +199,7 @@ section#area-info-professor{
 
 section#info-adicionais{
     display: flex;
+    text-align: center;
     margin: auto;
     height: auto;
     width: 90%;
@@ -209,6 +209,7 @@ section#info-adicionais{
 
     #quarta-sessao-topo{
         display: flex;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         margin: 60px auto;
@@ -220,34 +221,39 @@ section#info-adicionais{
             margin-bottom: 45px;
         }
 
-        #quarta-sessao-topo-info{
+        section#quadro-imgs{
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 70%;
+            justify-content: center;
+            width: 80%;
         }
-
-        #quadro-imgs{
-            display: flex;
-        }
+            #quadro{
+                display: flex;
+                overflow: hidden;
+                overflow-x: visible;
+            }
             img.img-fb{
                 margin: 10px;
-                width: 260px;
+                width: 350px;
+                
             }
 
             #info-btn-maps{
                 display: flex;
                 flex-direction: column;
                 text-align: center;
-                width: 70%;
-                margin: 20px;
+                width: 50%;
+                margin-top: 20px;
             }
 
                 #info-btn-maps h3{
                     font-weight: 500;
                     padding-bottom: 20px;
-                    font-size: 20px;
+                    font-size: 19px;
                 }
+
+        #quarta-sessao-topo button{
+            width: 50%;
+        }
 
                 
                     /*QUINTA SESSÃO*/
@@ -561,16 +567,11 @@ button{
         font-size: 5vw;
     }
     #quarta-sessao-topo h3{
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     #quadro-imgs{
-        width: 540px;
-        overflow: hidden;
         overflow-x: visible;
     }
-    img.img-fb{
-        margin: 10px;
-        width: 400px;
     }
     #duvidas h2{
         font-size: 5vw;
@@ -584,7 +585,7 @@ button{
     #btn button{
         background-color: #BE100F;
     }
-}
+
 
 
 
@@ -686,20 +687,23 @@ button{
         }
         
         #info strong#stg1{
-            font-size: 18px;
+            font-size: 17px;
         }
 
         #info h3{
             margin-bottom: 20px;
-            font-size: 14px;
+            font-size: 13px;
         }
 
         #info span{
-            font-size: 14px;
+            font-size: 13px;
+        }
+        #info button{
+            font-size: 13px;
         }
 
     #info p{
-        font-size: 9px;
+        font-size: 2.5vw;
     }
     section#barra-info-extra{
         display: flex;
@@ -708,14 +712,13 @@ button{
     }
     section#barra-info-extra h3{
         margin-top: 20px;
-        font-size: 4vw;
+        font-size: 5vw;
     }
     section#area-info-professor{
         display: flex;
         flex-direction: column;
         height: auto;
         align-items: center;
-        margin: 20px;
     }
         #info-professor{
             width: 100%;
@@ -727,14 +730,14 @@ button{
         }
         #info-professor h3{
             text-align: center;
-            font-size: 3.5vw;
+            font-size: 13px;
             line-height: 145%;
         }
         #info-professor button{
             font-size: 3.5vw;
         }
         #img-professor{
-            margin-bottom: 40px;
+            margin: 20px;
     }
     #quarta-sessao-topo{
         margin: 0px;
@@ -747,13 +750,13 @@ button{
         font-size: 3.5vw;
     }
     #quadro-imgs{
-        width: 420px;
+        width: 200px;
         overflow: hidden;
         overflow-x: visible;
     }
     img.img-fb{
-        margin: 10px;
-        width: 300px;
+        margin: 5px;
+        width: 140px;
     }
     #quarta-sessao-topo-info button{
         font-size: 3.5vw;

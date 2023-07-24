@@ -5,11 +5,13 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Belleza', sans-serif;
-    background-color: #fff;
-    color: #202020;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
-                    /*PRIMEIRA SESSÃO*/
+/*-------------------------------PRIMEIRA SESSÃO------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
 
 header {
     display: flex;
@@ -24,7 +26,7 @@ header {
         z-index: 1;
         align-items: center;
         width: 60%;
-        background-color: #fff;
+        background-color: #FFFFFF;
         height: 840px;
     }
         #info{
@@ -75,13 +77,13 @@ header {
                 color: #BE100F;
                 font-weight: bold;
                 cursor: pointer;
-                background-color: #fff;
+                background-color: #FFFFFF;
                 transition: 500ms;
             }
 
                 button:hover{
                     background-color: #BE100F;
-                    color: #fff;
+                    color: #FFFFFF;
                 }
 
             #info p{
@@ -106,7 +108,14 @@ header {
     }
 
 
-                    /*SEGUNDA SESSÃO*/
+
+
+/*-------------------------------SEGUNDA SESSÃO------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+
+
 
 section#info-extra{
     display: flex;
@@ -129,7 +138,7 @@ section#barra-info-extra{
         font-size: 25px;
         font-weight: normal;
         margin: auto;
-        color: #fff;
+        color: #FFFFFF;
         align-items: center;
         text-align: center;
         background-color: transparent;
@@ -143,14 +152,21 @@ section#barra-info-extra{
     }
 
 
-                    /*TERCEIRA SESSÃO*/
+
+
+/*-------------------------------TERCEIRA SESSÃO------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+
+
 
 section#area-info-professor{
     display: flex;
     margin: auto;
     height: 740px;
     width: 90%;
-    background-color: #fff;
+    background-color: #FFFFFF;
 }
 
     #img-professor{
@@ -195,7 +211,14 @@ section#area-info-professor{
         }
 
 
-                    /*QUARTA SESSÃO*/
+
+
+/*-------------------------------QUARTA SESSÃO------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+
+
 
 section#info-adicionais{
     display: flex;
@@ -203,8 +226,9 @@ section#info-adicionais{
     margin: auto;
     height: auto;
     width: 90%;
-    background-color: #fff;
+    background-color: #FFFFFF;
     border-top: 1px solid #BE100F;
+    border-bottom: 1px solid #BE100F;
 }
 
     #quarta-sessao-topo{
@@ -255,82 +279,142 @@ section#info-adicionais{
             width: 50%;
         }
 
+
+
                 
-                    /*QUINTA SESSÃO*/
+/*-------------------------------QUINTA SESSÃO------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
 
-section#turmas-depoimentos-geral{
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-    background-color: #fff;
-}
 
-    #turmas-depoimentos{
-        border-top: 1px solid #BE100F;
+
+
+
+    #turmas-box{
         display: flex;
-        margin: 0 auto;
-        width: 90%;
-        height: 65vh;
+        justify-content: space-between;
+        background-color: transparent;
     }
 
-        #turmas{
-            display: flex;
-            justify-content: center;
-            width: 50%;
-            height: 100%;
+        #turmas-box img{
+            background-color: transparent;
         }
 
-            #slider{
-                display: flex;
-                align-items: center;
-                width: 30vw;
-                min-width: 330px;
-                max-width: 400px;
-                position: relative;
+            img#left{
+                width: 270px;
+                position: absolute;
+                object-fit: contain;
+                margin-top: 450px;
+                z-index: 0;
             }
 
-                #slider img{
-                    opacity: 0;
-                    width: 100%;
-                    position: absolute;
-                    transition: opacity 1000ms;
+            img#right{
+                width: 270px;
+                position: absolute;
+                right: 0px;
+                
+            }
+
+        #turmas-depoimentos{
+            align-items: center;
+            margin: auto;
+        }
+
+        #cabecalho-depoimento{
+            height: 150px;
+        }
+
+            #cabecalho-depoimento h2{
+                margin: auto;
+                font-size: 4vw;
+                font-weight: 500;
+                margin-top: 40px;
+            }
+
+            #box-depoimentos{
+                height: 700px;
+                width: 650px;
+                display: flex;
+                margin: auto;
+            }
+
+            .card-depoimento{
+                z-index: 1;
+                margin: auto;
+                width: 300px;
+                height: 520px;
+                border: 2px solid #BE100F;
+                border-radius: 15px;
+                overflow: hidden;
+                background-color: #FFFFFF;
+
+            }
+
+                .card-depoimento video{
+                    position: relative;
+                    width: 300px;
+                    height: 470px;
                 }
 
-                    #slider img.selected{
-                        opacity: 1;
-                    }
+                .card-depoimento footer{
+                    position: relative;
+                    top: -50px;
+                    width: 300px;
+                    height: 100px;
+                    background-color: #BE100F;
+                }
+                .card-depoimento h3{
+                    background-color: transparent;
+                    width: 80%;
+                    height: 60px;
+                    font-size: 2vh;
+                    font-weight: 400;
+                    text-align: center;
+                    color: #FFFFFF;
+                    margin: auto;
+                    padding-top: 10px;
+                }
+
+                .card-depoimento a{
+                    margin-left: 30px;
+                }
+
+                .card-depoimento i{
+                    background-color: transparent;
+                }
+
+                #depoimento-escrito{
+                    display: flex;
+                    flex-direction: column;
+                    width: 300px;
+                    height: 474px;
+                    background-color: transparent;
+                }
+                #depoimento-escrito img{
+                    width: 100px;
+                    height: 100px;
+                    margin: 20px auto;
+                    margin-bottom: 0px;
+                }
+
+                #depoimento-escrito h4{
+                    font-size: 2vh;
+                    padding: 20px;
+                    height: 300px;
+                    background-color: transparent;
+                }
+
+        
 
 
-        #depoimentos{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            width: 50%;
-            height: 100%;
-        }
-
-            #depoimentos img{
-                width: 100px;
-                border-radius: 50%;
-                border: none;
-            }
-
-            #depoimentos h3{
-                margin-top: 35px;
-                font-weight: 300;
-                font-size: 16px;
-                line-height: 150%;
-                max-width: 600px;
-            }
-
-            #depoimentos i{
-                margin: 0px 30px;
-            }
 
 
-                    /*SEXTA SESSÃO*/
+/*-------------------------------SEXTA SESSÃO------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+
+
 
 section#duvidas-geral{
     display: flex;
@@ -354,14 +438,14 @@ section#duvidas-geral{
             margin-bottom: 60px;
             margin-top: 65px;
             background-color: transparent;
-            color: #fff;
+            color: #FFFFFF;
         }
 
         .container {
             box-shadow: 8px 10px 5px #0003;
             width: 80%;
             max-width: 900px;
-            background-color: #fff;
+            background-color: #FFFFFF;
             border-radius: 5px;
             padding: 10px;
             margin: auto 5px;
@@ -410,17 +494,24 @@ section#duvidas-geral{
             span, .icon {
                 font-weight: 600;
                 background-color: transparent;
-                color: #fff;
+                color: #FFFFFF;
             }
             
             p {
                 text-align: justify;
                 background-color: transparent;
-                color: #fff;
+                color: #FFFFFF;
             }
 
 
-                    /*AREA CTA*/
+
+
+/*--------------------------------------AREA CTA------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+
+
 
 section#area-cta{
     display: flex;
@@ -429,16 +520,16 @@ section#area-cta{
     text-align: center;
     width: 100%;
     height: auto;
-    background-color: #202020;
+    background-color: #000000;
 }
 section#btn-cta{
     width: 90%;
-    background-color: #202020;
+    background-color: #000000;
 }
 
     #btn-cta h2{
-        color: #fff;
-        background-color: #202020;
+        color: #FFFFFF;
+        background-color: #000000;
         font-size: 3vw;
         font-weight: 500;
         margin-top: 100px;
@@ -447,13 +538,13 @@ section#btn-cta{
     #btn-cta h3{
         margin-top: 100px;
         font-size: 22px;
-        color: #fff;
-        background-color: #202020;
+        color: #FFFFFF;
+        background-color: #000000;
     }
 
     span#cor{
         background-color: #BE100F;
-        color: #fff;
+        color: #FFFFFF;
         padding: 10px;
         font-size: 3vw;
         font-weight: 500;
@@ -462,7 +553,7 @@ section#btn-cta{
     #btn-cta strong{
         font-weight: 700;
         color: #BE100F;
-        background-color: #202020;
+        background-color: #000000;
     }
 
     #btn-cta button, a{
@@ -474,7 +565,7 @@ section#btn-cta{
 
     #btn{
         margin: auto;
-        background-color: #202020;
+        background-color: #000000;
         max-width: 700px;
     }
 
@@ -549,7 +640,7 @@ button{
     }
     button{
         background-color: #BE100F;
-        color: #fff;
+        color: #FFFFFF;
     }
     section#barra-info-extra{
         width: 70%;
@@ -572,10 +663,6 @@ button{
     #quadro-imgs{
         overflow-x: visible;
     }
-    }
-    #duvidas h2{
-        font-size: 5vw;
-    }
     #btn-cta h2{
         font-size: 5vw;
     }
@@ -585,6 +672,7 @@ button{
     #btn button{
         background-color: #BE100F;
     }
+}
 
 
 
@@ -622,34 +710,6 @@ button{
     }
     #quarta-sessao-topo-info button{
         font-size: 2.5vw;
-    }
-    section#turmas-depoimentos-geral{
-        margin-top: 0px;
-        height: 680px;
-    }
-    section#turmas-depoimentos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #slider img{
-        width: 100%;
-    }
-    #slider{
-        display: flex;
-        justify-content: center;
-        height: 330px;
-        margin: 40px 0px;
-    }
-    #depoimentos{
-        width: 90%;
-        margin-bottom: 40px;
-    }
-    #depoimentos img{
-        width: 10%;
-    }
-    #depoimentos h3{
-        font-size: 12px;
     }
 }
 
@@ -760,32 +820,6 @@ button{
     }
     #quarta-sessao-topo-info button{
         font-size: 3.5vw;
-    }
-    section#turmas-depoimentos-geral{
-        margin-top: 0px;
-        height: 700px;
-    }
-    section#turmas-depoimentos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #slider img{
-        width: 70%;
-    }
-    #slider{
-        display: flex;
-        justify-content: center;
-        height: 301px
-    }
-    #depoimentos{
-        width: 90%;
-    }
-    #depoimentos img{
-        width: 20%;
-    }
-    #depoimentos h3{
-        font-size: 12px;
     }
     #duvidas h2{
         font-size: 7vw;

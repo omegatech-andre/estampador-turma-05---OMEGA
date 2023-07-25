@@ -196,7 +196,7 @@ section#area-info-professor{
         }
 
         #info-professor h3{
-            border-top: 1px solid #BE100F;
+            border-top: 1px solid #F90000;
             margin-top: 25px;
             font-weight: 300;
             padding-top: 25px;
@@ -227,8 +227,8 @@ section#info-adicionais{
     height: auto;
     width: 90%;
     background-color: #FFFFFF;
-    border-top: 1px solid #BE100F;
-    border-bottom: 1px solid #BE100F;
+    border-top: 1px solid #F90000;
+    border-bottom: 1px solid #F90000;
 }
 
     #quarta-sessao-topo{
@@ -276,7 +276,7 @@ section#info-adicionais{
                 }
 
         #quarta-sessao-topo button{
-            width: 50%;
+            width: 70%;
         }
 
 
@@ -291,77 +291,95 @@ section#info-adicionais{
 
 
     #turmas-box{
-        display: flex;
-        justify-content: space-between;
         background-color: transparent;
+        width: 100%;
+        margin: auto;
+        height: 784px;
+        margin-bottom: 50px;
     }
 
         #turmas-box img{
             background-color: transparent;
         }
 
+        #bg-tintas{
+            height: 834px;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+        }
+
             img#left{
-                width: 270px;
-                position: absolute;
+                width: 15vw;
+                position: relative;
                 object-fit: contain;
-                margin-top: 450px;
+                left: 0px;
                 z-index: 0;
             }
 
             img#right{
-                width: 270px;
-                position: absolute;
+                width: 15vw;
+                position: relative;
+                object-fit: contain;
                 right: 0px;
+                z-index: 0;
                 
             }
 
         #turmas-depoimentos{
+            background-color: transparent;
+            top: -834px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
             align-items: center;
             margin: auto;
+            width: 90%;
+            
         }
-
-        #cabecalho-depoimento{
-            height: 150px;
+        
+        #cabecalho-depoimento h2{
+            font-size: 4vw;
+            font-weight: 500;
+            margin-top: 60px;
         }
-
-            #cabecalho-depoimento h2{
-                margin: auto;
-                font-size: 4vw;
-                font-weight: 500;
-                margin-top: 40px;
-            }
-
-            #box-depoimentos{
-                height: 700px;
-                width: 650px;
-                display: flex;
-                margin: auto;
+        
+        #caixa-rolante{
+            margin: 45px;
+            display: flex;
+            width: 100%;
+            max-width: 680px;
+            overflow: hidden;
+            overflow-x: visible;
+            background-color: transparent;
             }
 
             .card-depoimento{
                 z-index: 1;
-                margin: auto;
+                margin: 20px;
                 width: 300px;
-                height: 520px;
+                height: 508px;
                 border: 2px solid #BE100F;
                 border-radius: 15px;
-                overflow: hidden;
                 background-color: #FFFFFF;
 
             }
 
                 .card-depoimento video{
                     position: relative;
-                    width: 300px;
-                    height: 470px;
+                    width: 296px;
+                    height: 420px;
+                    border-radius: 14px;
                 }
 
                 .card-depoimento footer{
                     position: relative;
-                    top: -50px;
-                    width: 300px;
+                    top: -17px;
+                    width: 296px;
                     height: 100px;
                     background-color: #BE100F;
+                    border-bottom-left-radius: 15px;
+                    border-bottom-right-radius: 15px;
                 }
                 .card-depoimento h3{
                     background-color: transparent;
@@ -376,7 +394,7 @@ section#info-adicionais{
                 }
 
                 .card-depoimento a{
-                    margin-left: 30px;
+                    margin-left: 50px;
                 }
 
                 .card-depoimento i{
@@ -385,22 +403,22 @@ section#info-adicionais{
 
                 #depoimento-escrito{
                     display: flex;
-                    flex-direction: column;
+                    flex-direction: column-reverse;
                     width: 300px;
-                    height: 474px;
+                    height: 423px;
                     background-color: transparent;
                 }
                 #depoimento-escrito img{
-                    width: 100px;
-                    height: 100px;
-                    margin: 20px auto;
+                    width: 80px;
+                    height: 150px;
+                    margin: 0 auto;
                     margin-bottom: 0px;
                 }
 
                 #depoimento-escrito h4{
                     font-size: 2vh;
                     padding: 20px;
-                    height: 300px;
+                    height: 250px;
                     background-color: transparent;
                 }
 
@@ -615,62 +633,84 @@ section#btn-cta{
     }
 
 button{
+    background-color: #BE100F;
+    color: #FFFFFF;
     font-size: 2vw;
 }
     #logo-nome{
         background-color: transparent;
     }
+
     #logo-nome h1{
         background-color: transparent;
     }
+
     #logo-nome strong{
         background-color: transparent;
     }
+
     #info h2{
         background-color: transparent;
     }
+
     #info h3{
         background-color: transparent;
     }
+
     #info img{
         background-color: transparent;
     }
+
     #info span, strong{
         background-color: transparent;
     }
-    button{
-        background-color: #BE100F;
-        color: #FFFFFF;
-    }
+
+
     section#barra-info-extra{
         width: 70%;
     }
+
     section#barra-info-extra h3{
         font-size: 3vw;
     }
+
     #info-professor h1{
         font-size: 5vw;
     }
+
     #info-professor h3{
         font-size: 2vw;
     }
+
     #quarta-sessao-topo h2{
         font-size: 5vw;
     }
+
     #quarta-sessao-topo h3{
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
-    #quadro-imgs{
-        overflow-x: visible;
-    }
-    #btn-cta h2{
-        font-size: 5vw;
-    }
-    #btn-cta span{
-        font-size: 5vw;
-    }
-    #btn button{
+    #btn-professor{
         background-color: #BE100F;
+        font-size: 2vw;
+    }
+
+    #cabecalho-depoimento h2{
+        font-size: 5vw;
+    }
+
+    .card-depoimento h3{
+        font-size: 2vw;
+    }
+    #depoimento-escrito h4{
+        font-size: 1.9vw;
+    }
+    
+    img#left{
+        width: 200px;
+    }
+
+    img#right{
+        width: 200px;
     }
 }
 
@@ -710,6 +750,10 @@ button{
     }
     #quarta-sessao-topo-info button{
         font-size: 2.5vw;
+    }
+    
+    #depoimento-escrito h4{
+        font-size: 2.2vw;
     }
 }
 
@@ -759,7 +803,7 @@ button{
             font-size: 13px;
         }
         #info button{
-            font-size: 13px;
+            font-size: 3.5vw;
         }
 
     #info p{
@@ -818,7 +862,7 @@ button{
         margin: 5px;
         width: 140px;
     }
-    #quarta-sessao-topo-info button{
+    #quarta-sessao-topo button{
         font-size: 3.5vw;
     }
     #duvidas h2{
@@ -842,4 +886,113 @@ button{
         margin-top: 60px;
         font-size: 14px;
     }
+
+    #turmas-box{
+        height: 554px;
+    }
+        #bg-tintas{
+            height: 604px;
+        }
+
+            img#left{
+                width: 50vw;
+            }
+
+            img#right{
+                display: none;
+            }
+
+        #turmas-depoimentos{
+            top: -604px;
+            
+        }
+        
+        #cabecalho-depoimento h2{
+            font-size: 7vw;
+            font-weight: 500;
+            margin-top: 60px;
+        }
+        
+        #caixa-rolante{
+            width: 100%;
+            max-width: 680px;
+            }
+
+            .card-depoimento{
+                width: 216px;
+                height: 370px;
+
+            }
+
+                .card-depoimento video{
+                    width: 212px;
+                    height: 306px;
+                }
+
+                .card-depoimento footer{
+                    width: 212px;
+                    height: 75px;
+                }
+                .card-depoimento h3{
+                    width: 80%;
+                    height: 60px;
+                    font-size: 1.5vh;
+                }
+
+                .card-depoimento a{
+                    margin-left: 20px;
+                    position: relative;
+                    top: -20px;
+                }
+
+                #depoimento-escrito{
+                    width: 212px;
+                    height: 310px;
+                }
+                #depoimento-escrito img{
+                    width: 50px;
+                    height: 160px;
+                }
+
+                #depoimento-escrito h4{
+                    font-size: 1.6vh;
+                    padding: 20px;
+                    height: 250px;
+                }
+
+}
+
+
+
+
+@media only screen and (max-width: 425px){
+
+
+    #depoimento-escrito h4{
+        font-size: 1.3vh;
+    }
+    #depoimento-escrito img{
+        width: 50px;
+        height: 160px;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 390px){
+
+
+    #depoimento-escrito h4{
+        font-size: 1.5vh;
+    }
+    #depoimento-escrito img{
+        width: 50px;
+        margin-bottom: 10px;
+    }
+
+
 }

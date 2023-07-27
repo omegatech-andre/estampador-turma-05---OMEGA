@@ -899,11 +899,11 @@ button{
             font-size: 13px;
         }
         #info button{
-            font-size: 3.5vw;
+            font-size: 2.5vw;
         }
 
     #info p{
-        font-size: 2.5vw;
+        font-size: 1.7vw;
     }
     section#barra-info-extra{
         display: flex;
@@ -934,7 +934,7 @@ button{
             line-height: 145%;
         }
         #info-professor button{
-            font-size: 3.5vw;
+            font-size: 2.5vw;
         }
         #img-professor{
             margin: 20px;
@@ -947,7 +947,7 @@ button{
         font-size: 7vw;
     }
     #info-btn-maps h3{
-        font-size: 3.5vw;
+        font-size: 13px;
     }
     #quadro-imgs{
         width: 200px;
@@ -959,7 +959,7 @@ button{
         width: 140px;
     }
     #quarta-sessao-topo button{
-        font-size: 3.5vw;
+        font-size: 2.5vw;
     }
     #duvidas h2{
         font-size: 7vw;
@@ -969,11 +969,6 @@ button{
     }
     .accordion_content {
         font-size: 10px;
-    }
-    #btn-cta h2{
-        font-size: 8vw;
-        line-height: 170%;
-        margin-top: 40px;
     }
     span#cor{
         font-size: 8vw;
@@ -1032,7 +1027,7 @@ button{
                 .card-depoimento h3{
                     width: 80%;
                     height: 60px;
-                    font-size: 1.5vh;
+                    font-size: 13px;
                 }
 
                 .card-depoimento a{
@@ -1051,7 +1046,7 @@ button{
                 }
 
                 #depoimento-escrito h4{
-                    font-size: 1.6vh;
+                    font-size: 13px;
                     padding: 20px;
                     height: 250px;
                 }
@@ -1060,14 +1055,36 @@ button{
         line-height: 250%;
     }
 
-    span#cor{
-        font-size: 5vw;
+    section#area-cta h2{
+        font-size: 7vw;
+        line-height: 170%;
+        margin-top: 30px;
     }
 
     #btn-btn{
         font-size: 2vw;
     }
 
+    .cima-roda-pe p{
+        font-size: 5vw;
+    }
+
+    #redes{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    #redes i{
+        margin: 20px;
+    }
+
+    #direitos p{
+        display: flex;
+        justify-content: center;
+        font-size: 2.5vw;
+        padding: 0;
+        padding-bottom: 20px;
+    }
 }
 
 
@@ -1109,5 +1126,11 @@ button{
         margin-bottom: 10px;
     }
 
+    button#btn-btn{
+        font-size: 5vw;
+    }
 
+    #redes i{
+        margin: 10px;
+    }
 }

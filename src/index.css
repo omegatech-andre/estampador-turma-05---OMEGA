@@ -422,39 +422,139 @@ section#info-adicionais{
                     background-color: transparent;
                 }
 
+
+
+
+
+
+
+/*--------------------------------------AREA CTA------------------------------------------*/
+
+
+
+
+section#area-cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, rgba(230,188,5,1) 0%, rgba(233,67,9,1) 50%, rgba(190,16,15,1) 100%);
+    background-size: 600% 100%;
+    animation: degrade-animado 5s infinite alternate;
+}
+section#btn-cta{
+    width: 90%;
+    background-color: transparent;
+}
+
+    #btn-cta h2{
+        color: #FFFFFF;
+        background-color: transparent;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-top: 100px;
+    }
+
+    #btn-cta h3{
+        margin-top: 40px;
+        font-size: 22px;
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    span#cor{
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        padding: 10px;
+        font-size: 3vw;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+    #btn-cta strong{
+        padding: 10px;
+        font-weight: 700;
+        color: #BE100F;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+    #btn-cta button, a{
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        background-color: transparent;
+    }
+
+    #btn{
+        background-color: transparent;
+        width: 70%;
+        margin: auto;
+    }
+    
+    button#btn-btn{
+        background-color: #e6bc05;
+        color: #BE100F;
+        border: 1px solid #FFFFFF;
+        font-size: 19px;
+        box-shadow: 2px 2px #000000;
+    }
+
+    #btn-btn:hover{
+        color: #BE100F;
+        border: 1px solid #FFFFFF;
+        background: rgb(245, 241, 30);
+    }
+
+
+
+
+
         
 
 
 
 
-/*-------------------------------SEXTA SESSÃO------------------------------------------
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------*/
+/*-------------------------------SETIMA SESSÃO------------------------------------------*/
 
 
 
 
 section#duvidas-geral{
+    border-top: 10px solid #BE100F;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
     background-color: #BE100F;
+    width: 100%;
 }
+
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
     section#duvidas{
         display: flex;
         flex-direction: column;
+        margin: auto;
         align-items: center;
-        width: 90%;
+        width: 100%;
         height: auto;
+        margin-top: 40px;
         margin-bottom: 65px;
-        background-color: transparent;
+        background-color: #BE100F;
     }
 
         #duvidas h2{
             font-size: 4vw;
             font-weight: 500;
             margin-bottom: 60px;
-            margin-top: 65px;
             background-color: transparent;
             color: #FFFFFF;
         }
@@ -465,14 +565,14 @@ section#duvidas-geral{
             max-width: 900px;
             background-color: #FFFFFF;
             border-radius: 5px;
-            padding: 10px;
+            padding: 5px;
             margin: auto 5px;
         }
           
             .content {
                 display: flex;
                 flex-direction: column;
-                gap: 10px;
+                gap: 5px;
                 background-color: transparent;
             }
             
@@ -483,6 +583,7 @@ section#duvidas-geral{
             
             .accordion_item:hover {
                 opacity: 0.9;
+                background-color: #c71d1d;
             }
             
             .accordion_header {
@@ -524,72 +625,58 @@ section#duvidas-geral{
 
 
 
-/*--------------------------------------AREA CTA------------------------------------------
-------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------*/
+
+/*-------------------------------SETIMA SESSÃO------------------------------------------*/
 
 
-
-
-section#area-cta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
+#roda-pe{
     height: auto;
-    background-color: #000000;
-}
-section#btn-cta{
-    width: 90%;
-    background-color: #000000;
+    border-top: 1px solid #7e7e7e;
+    background-color: #dfdfdf;
+    justify-content: space-between;
 }
 
-    #btn-cta h2{
-        color: #FFFFFF;
-        background-color: #000000;
-        font-size: 3vw;
-        font-weight: 500;
-        margin-top: 100px;
-    }
-
-    #btn-cta h3{
-        margin-top: 100px;
-        font-size: 22px;
-        color: #FFFFFF;
-        background-color: #000000;
-    }
-
-    span#cor{
-        background-color: #BE100F;
-        color: #FFFFFF;
-        padding: 10px;
-        font-size: 3vw;
-        font-weight: 500;
-        border-radius: 5px;
-    }
-    #btn-cta strong{
-        font-weight: 700;
-        color: #BE100F;
-        background-color: #000000;
-    }
-
-    #btn-cta button, a{
-        width: 80%;
-        margin-top: 20px;
-        margin-bottom: 50px;
+    #redes{
         background-color: transparent;
     }
 
-    #btn{
-        margin: auto;
-        background-color: #000000;
-        max-width: 700px;
-    }
+.cima-roda-pe {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
 
-    #btn-cta button:hover{
-        background-color: #BE100F;
-    }
+.cima-roda-pe img{
+    background-color: transparent;
+}
+
+.cima-roda-pe p{
+    font-size: 34px;
+    font-weight: 600;
+    color: #5a5959;
+}
+.cima-roda-pe i{
+    margin: 50px;
+    background-color: transparent;
+}
+
+#direitos{
+    background-color: transparent;
+}
+#direitos p{
+    padding: 20px;
+    padding-right: 60px;
+    text-align: end;
+    color: #5a5959;
+    background-color: transparent;
+}
+
+
+
 
 
 
@@ -712,6 +799,15 @@ button{
     img#right{
         width: 200px;
     }
+
+    span#cor{
+        font-size: 5vw;
+    }
+
+    section#btn-cta h2{
+        font-size: 5vw;
+        line-height: 160%;
+    }
 }
 
 
@@ -742,14 +838,14 @@ button{
 
     
     #info-professor h3{
-        font-size: 2.5vw;
+        font-size: 2vw;
         line-height: 145%;
     }
     #info-btn-maps h3{
         font-size: 2.5vw;
     }
-    #quarta-sessao-topo-info button{
-        font-size: 2.5vw;
+    button#btn-professor{
+        font-size: 2vw;
     }
     
     #depoimento-escrito h4{
@@ -960,8 +1056,24 @@ button{
                     height: 250px;
                 }
 
+    section#btn-cta h2{
+        line-height: 250%;
+    }
+
+    span#cor{
+        font-size: 5vw;
+    }
+
+    #btn-btn{
+        font-size: 2vw;
+    }
+
 }
 
+
+
+
+/*---------------------------MEDIA-QUERY-MOBILE----------------------------*/
 
 
 
@@ -980,6 +1092,9 @@ button{
 }
 
 
+
+
+/*---------------------------MEDIA-QUERY-MOBILE----------------------------*/
 
 
 

@@ -893,11 +893,11 @@ button{
             font-size: 13px;
         }
         #info button{
-            font-size: 2.5vw;
+            font-size: 3.5vw;
         }
 
     #info p{
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
     section#barra-info-extra{
         display: flex;
@@ -928,7 +928,7 @@ button{
             line-height: 145%;
         }
         #info-professor button{
-            font-size: 2.5vw;
+            font-size: 3.5vw;
         }
         #img-professor{
             margin: 20px;
@@ -953,7 +953,7 @@ button{
         width: 140px;
     }
     #quarta-sessao-topo button{
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
     #duvidas h2{
         font-size: 7vw;
@@ -1112,6 +1112,18 @@ button{
     #depoimento-escrito img{
         width: 50px;
         margin-bottom: 10px;
+    }
+
+    #info button{
+        font-size: 4.5vw;
+    }
+
+    #info-professor button{
+        font-size: 4.5vw;
+    }
+
+    #quarta-sessao-topo button{
+        font-size: 4.5vw;
     }
 
     button#btn-btn{

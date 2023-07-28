@@ -382,23 +382,17 @@ section#info-adicionais{
                     border-bottom-right-radius: 15px;
                 }
                 .card-depoimento h3{
+                    display: flex;
+                    justify-content: center;
+                    margin: auto;
+                    text-align: center;
+                    align-items: center;
+                    height: 100px;
                     background-color: transparent;
                     width: 80%;
-                    height: 60px;
                     font-size: 2vh;
                     font-weight: 400;
-                    text-align: center;
                     color: #FFFFFF;
-                    margin: auto;
-                    padding-top: 10px;
-                }
-
-                .card-depoimento a{
-                    margin-left: 50px;
-                }
-
-                .card-depoimento i{
-                    background-color: transparent;
                 }
 
                 #depoimento-escrito{
@@ -1028,12 +1022,6 @@ button{
                     width: 80%;
                     height: 60px;
                     font-size: 13px;
-                }
-
-                .card-depoimento a{
-                    margin-left: 20px;
-                    position: relative;
-                    top: -20px;
                 }
 
                 #depoimento-escrito{

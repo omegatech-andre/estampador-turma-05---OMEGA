@@ -897,7 +897,7 @@ button{
         }
 
     #info p{
-        font-size: 2vw;
+        font-size: 1.7vw;
     }
     section#barra-info-extra{
         display: flex;
@@ -1115,15 +1115,15 @@ button{
     }
 
     #info button{
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 
     #info-professor button{
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 
     #quarta-sessao-topo button{
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 
     button#btn-btn{
